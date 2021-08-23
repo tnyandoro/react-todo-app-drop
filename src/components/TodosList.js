@@ -3,9 +3,11 @@ import React, { Component } from 'react'
 export class TodosList extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
+       <ul>
+        {this.props.todos.map(todo => (
+          <li>{todo.title}</li>
+        ))}
+      </ul>
     )
   }
 }
