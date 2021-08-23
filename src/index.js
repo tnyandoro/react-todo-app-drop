@@ -1,10 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Todocontainer from './components/Todocontainer'
+import React from "react"
+import ReactDOM from "react-dom"
+import TodoContainer from "./components/TodoContainer"
 
-
-
-
-ReactDOM.render(<Todocontainer />, document.getElementById('root')
-);
+ReactDOM.render(<TodoContainer />, document.getElementById("root"))
