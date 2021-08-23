@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from "react"
 
-export class TodosList extends Component {
+class TodosList extends React.Component {
   render() {
     return (
-       <ul>
+      <ul>
         {this.props.todos.map(todo => (
           <li>{todo.title}</li>
         ))}
